@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration Page</title>
+</head>
+<body>
+
+<div class="container">
+    <h2>Registration Form</h2>
+    <form th:action="@{/register}" th:object="${user}" method="post">
+        <!-- Thymeleaf CSRF Token -->
+
+        <!-- Other registration form fields -->
+        <div class="form-group">
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName"    th:field="*{firstName}" name="firstName" required/>
+        </div>
+
+        <div class="form-group">
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" th:field="*{lastName}"  name="lastName" required/>
+        </div>
+
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" th:field="*{email}" name="email" required/>
+        </div>
+
+        <div class="form-group">
+            <label for="password">Password:</label>
+            <input type="password" id="password" th:field="*{password}" name="password" required/>
+        </div>
+
+
+
+        <button type="submit">Register</button>
+    </form>
+
+    <p>Already have an account? <a th:href="@{/login}">Login here</a>.</p>
+</div>
+
+</body>
+</html>

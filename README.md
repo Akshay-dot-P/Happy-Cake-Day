@@ -22,6 +22,9 @@ Facilitates seamless integration with external services, enabling scalability an
 <h2>Tech Stack:</h2>
 
 Spring Boot: Provides a robust framework for building enterprise-grade applications.
+
 Hibernate: Simplifies database interactions and enhances data management.
+
 Thymeleaf: Enables dynamic and responsive front-end presentation.
+
 MySQL Database: Offers a reliable foundation for storing and managing application data.

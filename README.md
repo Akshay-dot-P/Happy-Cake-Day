@@ -1,6 +1,7 @@
 <H2>Overview:</H2>
 <H3>This project is an e-commerce application developed using Spring Boot, Hibernate, Thymeleaf, and MySQL database. It provides a seamless shopping experience for users, allowing them to browse products, add them to the cart, and provide admin page to monitor user activity</H3>
 
+
 <h2>Features:</h2>
 
 <h3>Secure Authentication:</h3>
@@ -18,6 +19,7 @@ RESTful API Endpoints:
 <h3>Implements RESTful API endpoints for products and categories.</h3>
 
 Facilitates seamless integration with external services, enabling scalability and versatility.
+
 
 <h2>Tech Stack:</h2>
 

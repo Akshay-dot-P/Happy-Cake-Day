@@ -1,5 +1,5 @@
-<H1>Overview:</H1><BR>
-<H2>This project is an e-commerce application developed using Spring Boot, Hibernate, Thymeleaf, and MySQL database. It provides a seamless shopping experience for users, allowing them to browse products, add them to the cart, and securely complete transactions.<H2></H2>
+<H2>Overview:</H2>
+<H3>This project is an e-commerce application developed using Spring Boot, Hibernate, Thymeleaf, and MySQL database. It provides a seamless shopping experience for users, allowing them to browse products, add them to the cart, and provide admin page to monitor user activity</H3>
 
 Features:
 
